@@ -11,11 +11,11 @@ def Klubnika():
 from tkinter import*
 window=Tk()
 mas=[]
-Lbl=Label(text='Ввести массив')
+Lbl=Label(text='Write a massive')
 Lbl.pack()
 Ent=Entry()
 Ent.pack()
-Btn=Button(text='Вывести массив')
+Btn=Button(text='Write a massive')
 Btn.pack()
 Lbox=Listbox()
 Lbox.pack()
@@ -24,12 +24,4 @@ def Malinka():
     a = Ent.get()
     mas = a.split()
     for i in mas:
-        Lbox.insert(END,i)
-print('Hello user')
-
-
-
-
-
-
-                      
+        Lbox.insert(END,in)
